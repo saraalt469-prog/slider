@@ -1,0 +1,62 @@
+body {
+  background-color: rgba(59, 59, 125, 0.736);
+}
+.block-wr {
+  overflow: hidden;
+  width: 700px;
+  height: 500px;
+  display: flex;
+  margin: 0 auto;
+  border: 2px solid rgba(0, 0, 255, 0.331);
+  border-radius: 20px;
+}
+.block-img {
+  text-align: center;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.block-btn-prev {
+  font-size: 30px;
+  border: none;
+  background-color: transparent;
+  cursor: grab;
+}
+.block {
+  display: flex;
+  max-width: 900px;
+  margin: 100px auto 0px auto;
+}
+.block-btn-next {
+  font-size: 30px;
+  border: none;
+  background-color: transparent;
+  cursor: grab;
+}
+.img-wr {
+  display: flex;
+
+  width: 100%;
+  height: 500px;
+  transition: 1.5s all ease;
+}
+.dots-container {
+  margin: 0 auto;
+  max-width: max-content;
+  padding: 5px 10px;
+  display: flex;
+  gap: 5px;
+}
+.dot {
+  background-color: transparent;
+  border: 1.5px solid rgba(0, 0, 0, 0.301);
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin: 0 auto;
+  max-width: 10px;
+  cursor: grab;
+}
+.active {
+  background-color: rgba(0, 30, 255, 0.385);
+}
